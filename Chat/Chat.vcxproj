@@ -132,6 +132,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="AssetsManager.cpp" />
+    <ClCompile Include="DirectXModule.cpp" />
+    <ClCompile Include="ImGuiModule.cpp" />
     <ClCompile Include="imGui\backends\imgui_impl_dx9.cpp" />
     <ClCompile Include="imGui\backends\imgui_impl_win32.cpp" />
     <ClCompile Include="imGui\imgui.cpp" />
@@ -140,8 +144,15 @@
     <ClCompile Include="imGui\imgui_tables.cpp" />
     <ClCompile Include="imGui\imgui_widgets.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="UIWindow.cpp" />
+    <ClCompile Include="Win32Module.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="AssetsManager.h" />
+    <ClInclude Include="DirectXModule.h" />
+    <ClInclude Include="ImGuiModule.h" />
     <ClInclude Include="imGui\backends\imgui_impl_dx9.h" />
     <ClInclude Include="imGui\backends\imgui_impl_win32.h" />
     <ClInclude Include="imGui\imconfig.h" />
@@ -150,6 +161,9 @@
     <ClInclude Include="imGui\imstb_rectpack.h" />
     <ClInclude Include="imGui\imstb_textedit.h" />
     <ClInclude Include="imGui\imstb_truetype.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="UIWindow.h" />
+    <ClInclude Include="Win32Module.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
